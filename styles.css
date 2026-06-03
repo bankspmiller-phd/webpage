@@ -164,7 +164,7 @@ h3 {
 
 .focus-band ul {
   display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1px;
   margin: 0;
   padding: 1px;
